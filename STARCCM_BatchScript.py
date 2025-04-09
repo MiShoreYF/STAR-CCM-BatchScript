@@ -331,10 +331,10 @@ def process_sim_command(sim_files, java_files, output_folder_path, SimParallelNu
             示例："D:/cases/execution_logs"
         
         SimParallelNumber : int
-            starccm并行执行进程数，默认使用1个进程执行
-            根据计算机配置调整，不宜超过CPU核心数
+            starccm并行执行进程数
         
         max_threads : int
+            同时执行的cmd命令数量
     Returns:
         None
         注意：函数包含系统命令执行，实际使用需根据STAR-CCM+环境配置调整执行命令
